@@ -12,8 +12,8 @@
         <div class="hero-inner">
           <div class="meta">
             <h1>Patch-wise Retrieval</h1>
-            <p class="authors">Wonseok Choi</p>
-            <p class="links"><a href="/">Home</a> • <a href="mailto:wonseok.c@postech.ac.kr">Contact</a> • <a href="#bibtex">BibTeX</a></p>
+            <p class="authors">Wonseok Choi, Sohwi Lim, Nam Hyeon-Woo, Moon Ye-Bin, Dong-Ju Jeong, Jinyoung Hwang, Tae-Hyun Oh</p>
+            <p class="links">POSTECH (Wonseok Choi, Nam Hyeon-Woo, Moon Ye-Bin) • KAIST (Sohwi Lim, Tae-Hyun Oh) • Samsung Research (Dong-Ju Jeong, Jinyoung Hwang) • <a href="/">Home</a> • <a href="mailto:wonseok.c@postech.ac.kr">Contact</a> • <a href="#bibtex">BibTeX</a></p>
           </div>
           <div class="hero-figure">
             <img src="/patchwise_retrieval/img/teaser.png" alt="project teaser">
@@ -27,7 +27,7 @@
         <section class="content centered-content project-content">
           <section id="abstract">
             <h2>Abstract</h2>
-            <p>This project documents a set of practical techniques for patch-wise instance-level retrieval. We experiment with matching pipelines, descriptors, and retrieval strategies to build a robust system for instance-level search.</p>
+            <p>Instance-level image retrieval aims to find images containing the same object as a given query, despite variations in size, position, or appearance. To address this challenging task, we propose Patchify, a simple yet effective patch-wise retrieval framework that offers high performance, scalability, and interpretability without requiring fine-tuning. Patchify divides each database image into a small number of structured patches and performs retrieval by comparing these local features with a global query descriptor, enabling accurate and spatially grounded matching. To assess not just retrieval accuracy but also spatial correctness, we introduce LocScore, a localization-aware metric that quantifies whether the retrieved region aligns with the target object. This makes LocScore a valuable diagnostic tool for understanding and improving retrieval behavior. We conduct extensive experiments across multiple benchmarks, backbones, and region selection strategies, showing that Patchify outperforms global methods and complements state-of-the-art reranking pipelines. Furthermore, we apply Product Quantization for efficient large-scale retrieval and highlight the importance of using informative features during compression, which significantly boosts performance.</p>
           </section>
 
           <section id="results">
@@ -48,11 +48,11 @@
 
           <section id="bibtex">
             <h2>BibTeX</h2>
-            <pre><code>@inproceedings{choi2025patchwise,
+            <pre><code>@inproceedings{choi2026PatchwiseRetrieval,
   title={Patch-wise Retrieval: A Bag of Practical Techniques for Instance-level Matching},
-  author={Wonseok Choi},
-  year={2025},
-  note={Draft}
+  author={Wonseok Choi and Sohwi Lim and Nam Hyeon-Woo and Moon Ye-Bin and Dong-Ju Jeong and Jinyoung Hwang and Tae-Hyun Oh},
+  booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+  year={2026}
 }</code></pre>
           </section>
 
