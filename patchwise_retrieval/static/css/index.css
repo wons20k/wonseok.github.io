@@ -1,0 +1,12 @@
+/* Minimal CSS adapted from Academic Project Page Template */
+body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:#111; }
+.publication-title { font-weight:700; letter-spacing: -0.02em; }
+.publication-authors { margin-top:12px; }
+.author-block { margin-right:8px; display:inline-block; }
+.publication-links { margin-top:14px; }
+.publication-links .button { margin:6px; }
+.hero.teaser { padding-top: 0; padding-bottom: 0; }
+.image.is-3by1 img { width:100%; height:auto; object-fit:cover; border-radius:8px; box-shadow:0 12px 30px rgba(16,24,40,0.08); }
+.bibtex-header { display:flex; align-items:center; justify-content:space-between; }
+.copy-bibtex-btn { margin-left:8px; }
+@media (max-width:900px) { .image.is-3by1 { aspect-ratio: 3 / 1; } }
