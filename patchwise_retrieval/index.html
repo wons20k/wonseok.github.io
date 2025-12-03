@@ -32,121 +32,148 @@
                     <h1 class="title is-1 publication-title">Patch-wise Retrieval: A Bag of Practical Techniques for Instance-level Matching</h1>
                     <div class="is-size-5 publication-authors">
                       <span class="author-block">Wonseok Choi<sup>1</sup></span>
-                      <span class="author-block">Sohwi Lim<sup>2</sup></span>
-                      <span class="author-block">Nam Hyeon-Woo<sup>1</sup></span>
-                      <span class="author-block">Moon Ye-Bin<sup>1</sup></span>
-                      <br>
-                      <span class="author-block">Dong-Ju Jeong<sup>3</sup></span>
-                      <span class="author-block">Jinyoung Hwang<sup>3</sup></span>
-                      <span class="author-block">Tae-Hyun Oh<sup>2</sup></span>
-                    </div>
+                      <!DOCTYPE html>
+                      <html lang="en">
+                        <head>
+                          <meta charset="utf-8">
+                          <meta name="viewport" content="width=device-width, initial-scale=1">
+                          <title>Patch-wise Retrieval — Wonseok Choi</title>
 
-                    <div class="is-size-6 publication-authors">
-                      <span class="author-block">POSTECH<sup>1</sup> &nbsp;&nbsp; KAIST<sup>2</sup> &nbsp;&nbsp; Samsung Research<sup>3</sup></span>
-                    </div>
+                          <!-- SEO & Social meta (basic) -->
+                          <meta name="description" content="Patchify: a patch-wise retrieval framework and LocScore localization metric for instance-level image retrieval.">
+                          <meta name="author" content="Wonseok Choi, Sohwi Lim, Nam Hyeon-Woo, Moon Ye-Bin, Dong-Ju Jeong, Jinyoung Hwang, Tae-Hyun Oh">
 
-                    <div class="column has-text-centered">
-                      <div class="publication-links">
-                        <span class="link-block">
-                          <a href="#" class="external-link button is-normal is-rounded is-dark">
-                            <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                            <span>Paper</span>
-                          </a>
-                        </span>
-                        <span class="link-block">
-                          <a href="#" class="external-link button is-normal is-rounded is-dark">
-                            <span class="icon"><i class="fab fa-github"></i></span>
-                            <span>Code</span>
-                          </a>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+                          <!-- Bulma (CDN) and template CSS -->
+                          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+                          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+                          <link rel="stylesheet" href="static/css/index.css">
+                        </head>
+                        <body>
 
-          <!-- Teaser image (placed above the Abstract) -->
-          <section class="hero teaser">
-            <div class="container is-max-desktop">
-              <div class="hero-body">
-                <figure class="image is-3by1">
-                  <img src="/patchwise_retrieval/img/teaser.png" alt="Patch-wise Retrieval teaser" loading="lazy">
-                </figure>
-              </div>
-            </div>
-          </section>
+                          <main id="main-content">
+                            <!-- Hero -->
+                            <section class="hero">
+                              <div class="hero-body">
+                                <div class="container is-max-desktop">
+                                  <div class="columns is-centered">
+                                    <div class="column has-text-centered">
+                                      <h1 class="title is-1 publication-title">Patch-wise Retrieval: A Bag of Practical Techniques for Instance-level Matching</h1>
+                                      <div class="is-size-5 publication-authors">
+                                        <span class="author-block">Wonseok Choi<sup>1</sup></span>
+                                        <span class="author-block">Sohwi Lim<sup>2</sup></span>
+                                        <span class="author-block">Nam Hyeon-Woo<sup>1</sup></span>
+                                        <span class="author-block">Moon Ye-Bin<sup>1</sup></span>
+                                        <br>
+                                        <span class="author-block">Dong-Ju Jeong<sup>3</sup></span>
+                                        <span class="author-block">Jinyoung Hwang<sup>3</sup></span>
+                                        <span class="author-block">Tae-Hyun Oh<sup>2</sup></span>
+                                      </div>
 
-          <!-- Abstract -->
-          <section class="section hero is-light">
-            <div class="container is-max-desktop">
-              <div class="columns is-centered has-text-centered">
-                <div class="column is-four-fifths">
-                  <h2 class="title is-3">Abstract</h2>
-                  <div class="content has-text-justified">
-                    <p>Instance-level image retrieval aims to find images containing the same object as a given query, despite variations in size, position, or appearance. To address this challenging task, we propose Patchify, a simple yet effective patch-wise retrieval framework that offers high performance, scalability, and interpretability without requiring fine-tuning. Patchify divides each database image into a small number of structured patches and performs retrieval by comparing these local features with a global query descriptor, enabling accurate and spatially grounded matching. To assess not just retrieval accuracy but also spatial correctness, we introduce LocScore, a localization-aware metric that quantifies whether the retrieved region aligns with the target object. This makes LocScore a valuable diagnostic tool for understanding and improving retrieval behavior. We conduct extensive experiments across multiple benchmarks, backbones, and region selection strategies, showing that Patchify outperforms global methods and complements state-of-the-art reranking pipelines. Furthermore, we apply Product Quantization for efficient large-scale retrieval and highlight the importance of using informative features during compression, which significantly boosts performance.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+                                      <div class="is-size-6 publication-authors">
+                                        <span class="author-block">POSTECH<sup>1</sup> &nbsp;&nbsp; KAIST<sup>2</sup> &nbsp;&nbsp; Samsung Research<sup>3</sup></span>
+                                      </div>
 
-          <!-- Results (placeholder images) -->
-          <!--
-          <section class="hero is-small">
-            <div class="hero-body">
-              <div class="container">
-                <h2 class="title is-3">Main Results</h2>
-                <div class="columns is-multiline is-variable is-3">
-                  <!-- Replace with real result images -->
-                  <!-- <div class="column is-half"><figure class="image"><img src="/patchwise_retrieval/img/result1.png" alt="result 1" loading="lazy"></figure></div> -->
-                  <!-- <div class="column is-half"><figure class="image"><img src="/patchwise_retrieval/img/result2.png" alt="result 2" loading="lazy"></figure></div> -->
-                </div>
-              </div>
-            </div>
-          </section>
-          -->
+                                      <div class="column has-text-centered">
+                                        <div class="publication-links">
+                                          <span class="link-block">
+                                            <a href="#" class="external-link button is-normal is-rounded is-dark">
+                                              <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                                              <span>Paper</span>
+                                            </a>
+                                          </span>
+                                          <span class="link-block">
+                                            <a href="#" class="external-link button is-normal is-rounded is-dark">
+                                              <span class="icon"><i class="fab fa-github"></i></span>
+                                              <span>Code</span>
+                                            </a>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </section>
 
-          <!-- Artifacts / Code -->
-          <!--
-          <section class="section">
-            <div class="container is-max-desktop">
-              <h2 class="title">Artifacts</h2>
-              <ul>
-                <li><a href="#">Code (coming soon)</a></li>
-              </ul>
-            </div>
-          </section>
-          -->
+                            <!-- Teaser image (placed above the Abstract) -->
+                            <section class="hero teaser">
+                              <div class="container is-max-desktop">
+                                <div class="hero-body">
+                                  <figure class="image is-3by1">
+                                    <img src="/patchwise_retrieval/img/teaser.png" alt="Patch-wise Retrieval teaser" loading="lazy">
+                                  </figure>
+                                </div>
+                              </div>
+                            </section>
 
-          <!-- BibTeX -->
-          <section class="section" id="bibtex">
-            <div class="container is-max-desktop content">
-              <div class="bibtex-header">
-                <h2 class="title">BibTeX</h2>
-                <button class="copy-bibtex-btn button" id="copyBib">Copy</button>
-              </div>
-              <pre id="bibtex-code"><code>@inproceedings{choi2026PatchwiseRetrieval,
-      title={Patch-wise Retrieval: A Bag of Practical Techniques for Instance-level Matching},
-      author={Wonseok Choi and Sohwi Lim and Nam Hyeon-Woo and Moon Ye-Bin and Dong-Ju Jeong and Jinyoung Hwang and Tae-Hyun Oh},
-      booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
-      year={2026}
-    }</code></pre>
-            </div>
-          </section>
+                            <!-- Abstract -->
+                            <section class="section hero is-light">
+                              <div class="container is-max-desktop">
+                                <div class="columns is-centered has-text-centered">
+                                  <div class="column is-four-fifths">
+                                    <h2 class="title is-3">Abstract</h2>
+                                    <div class="content has-text-justified">
+                                      <p>Instance-level image retrieval aims to find images containing the same object as a given query, despite variations in size, position, or appearance. To address this challenging task, we propose Patchify, a simple yet effective patch-wise retrieval framework that offers high performance, scalability, and interpretability without requiring fine-tuning. Patchify divides each database image into a small number of structured patches and performs retrieval by comparing these local features with a global query descriptor, enabling accurate and spatially grounded matching. To assess not just retrieval accuracy but also spatial correctness, we introduce LocScore, a localization-aware metric that quantifies whether the retrieved region aligns with the target object. This makes LocScore a valuable diagnostic tool for understanding and improving retrieval behavior. We conduct extensive experiments across multiple benchmarks, backbones, and region selection strategies, showing that Patchify outperforms global methods and complements state-of-the-art reranking pipelines. Furthermore, we apply Product Quantization for efficient large-scale retrieval and highlight the importance of using informative features during compression, which significantly boosts performance.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </section>
 
-          <footer class="footer">
-            <div class="container">
-              <div class="content has-text-centered">
-                <p>This page uses the Academic Project Page Template. Licensed under CC BY-SA 4.0.</p>
-              </div>
-            </div>
-          </footer>
-        </main>
+                            <!-- Results (placeholder images) -->
+                            <!--
+                            <section class="hero is-small">
+                              <div class="hero-body">
+                                <div class="container">
+                                  <h2 class="title is-3">Main Results</h2>
+                                  <div class="columns is-multiline is-variable is-3">
+                                    <!-- Replace with real result images -->
+                                    <!-- <div class="column is-half"><figure class="image"><img src="/patchwise_retrieval/img/result1.png" alt="result 1" loading="lazy"></figure></div> -->
+                                    <!-- <div class="column is-half"><figure class="image"><img src="/patchwise_retrieval/img/result2.png" alt="result 2" loading="lazy"></figure></div> -->
+                                  </div>
+                                </div>
+                              </div>
+                            </section>
+                            -->
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
-        <script src="static/js/index.js" defer></script>
-      </body>
-    </html>
-                </main>
+                            <!-- Artifacts / Code -->
+                            <!--
+                            <section class="section">
+                              <div class="container is-max-desktop">
+                                <h2 class="title">Artifacts</h2>
+                                <ul>
+                                  <li><a href="#">Code (coming soon)</a></li>
+                                </ul>
+                              </div>
+                            </section>
+                            -->
+
+                            <!-- BibTeX -->
+                            <section class="section" id="bibtex">
+                              <div class="container is-max-desktop content">
+                                <div class="bibtex-header">
+                                  <h2 class="title">BibTeX</h2>
+                                  <button class="copy-bibtex-btn button" id="copyBib">Copy</button>
+                                </div>
+                                <pre id="bibtex-code"><code>@inproceedings{choi2026PatchwiseRetrieval,
+                        title={Patch-wise Retrieval: A Bag of Practical Techniques for Instance-level Matching},
+                        author={Wonseok Choi and Sohwi Lim and Nam Hyeon-Woo and Moon Ye-Bin and Dong-Ju Jeong and Jinyoung Hwang and Tae-Hyun Oh},
+                        booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+                        year={2026}
+                      }</code></pre>
+                              </div>
+                            </section>
+
+                            <footer class="footer">
+                              <div class="container">
+                                <div class="content has-text-centered">
+                                  <p>This page uses the Academic Project Page Template. Licensed under CC BY-SA 4.0.</p>
+                                </div>
+                              </div>
+                            </footer>
+                          </main>
+
+                          <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
+                          <script src="static/js/index.js" defer></script>
+                        </body>
+                      </html>
