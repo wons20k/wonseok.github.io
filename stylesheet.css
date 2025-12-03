@@ -129,11 +129,12 @@ a {
 .project-page .project-hero .hero-figure img { width:480px; max-width:48vw; height:auto; border-radius:8px; box-shadow:0 8px 24px rgba(15,15,15,0.08); }
 
 /* Author block styling: superscripts and affiliation line */
-.project-hero .meta .authors { font-size:15px; margin:4px 0 6px 0; line-height:1.35; }
-.project-hero .meta .authors .author { display:inline-block; margin-right:10px; }
+.project-hero .meta { text-align: center; }
+.project-hero .meta .authors { font-size:15px; margin:6px 0 6px 0; line-height:1.35; }
+.project-hero .meta .authors .author { display:inline-block; margin:0 10px 4px 10px; }
 .project-hero .meta sup { font-size:0.65em; vertical-align:super; margin-left:2px; }
 .project-hero .meta .affils { color:#444; font-size:13px; margin:6px 0 8px 0; }
-.project-hero .meta .links { margin-top:6px; }
+.project-hero .meta .links { margin-top:8px; }
 
 .project-content { max-width:980px; margin:20px auto; }
 .project-content h2 { font-size:20px; margin:18px 0 8px 0; }
@@ -142,7 +143,7 @@ a {
 .project-page pre { background:#f7f7f7; padding:12px; overflow:auto; border-radius:6px; }
 
 @media (max-width: 900px) {
-  .project-page .project-hero .hero-inner { flex-direction:column; align-items:flex-start; }
+  .project-page .project-hero .hero-inner { flex-direction:column; align-items:center; }
   .project-page .project-hero .hero-figure img { width:100%; max-width:420px; }
   .project-figs img { width:100%; }
 }
