@@ -10,3 +10,7 @@ body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helv
 .bibtex-header { display:flex; align-items:center; justify-content:space-between; }
 .copy-bibtex-btn { margin-left:8px; }
 @media (max-width:900px) { .image.is-3by1 { aspect-ratio: 3 / 1; } }
+
+/* Ensure BibTeX code block is left-aligned for readability */
+#bibtex-code { text-align: left; white-space: pre; overflow: auto; }
+#bibtex-code code { display: block; }
